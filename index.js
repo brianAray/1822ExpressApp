@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
     // set response content    
         res.send(`<html>
                     <body>
+                        <h1>New update</h1>
                         <p>Lol</p>
                         <div style="position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%)">
                             <img src="https://picsum.photos/400/400?random=1">
